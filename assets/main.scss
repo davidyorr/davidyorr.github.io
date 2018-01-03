@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+$fa-font-path: "fonts/font-awesome/";
+@import "font-awesome";
+
+body {
+  background-color: #111;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 7em;
+
+  a {
+    color: hsl(0, 0%, 80%);
+    &:hover {
+      color: hsl(0, 0%, 95%);
+    }
+  }
+}
