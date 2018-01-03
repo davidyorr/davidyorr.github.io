@@ -2,8 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-$fa-font-path: "fonts/font-awesome/";
-@import "font-awesome";
 
 body {
   background-color: #111;
@@ -20,6 +18,19 @@ body {
     color: hsl(0, 0%, 80%);
     &:hover {
       color: hsl(0, 0%, 95%);
+    }
+  }
+
+  .icon > svg {
+    width: 1em;
+    height: 1em;
+
+    path {
+      fill: hsl(0, 0%, 80%);
+    }
+
+    &:hover path {
+      fill: hsl(0, 0%, 95%);
     }
   }
 }
