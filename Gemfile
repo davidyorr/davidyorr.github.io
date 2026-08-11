@@ -1,4 +1,8 @@
 source "https://rubygems.org"
+ruby "3.3.12"
+
+gem "csv"
+gem "webrick"
 
 # Use the github-pages gem to manage all dependencies for GitHub Pages
 gem "github-pages", group: :jekyll_plugins
